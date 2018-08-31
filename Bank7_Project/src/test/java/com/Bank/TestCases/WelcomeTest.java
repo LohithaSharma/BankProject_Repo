@@ -7,7 +7,7 @@ public class WelcomeTest {
 System.out.println("welcome");
 System.out.println("lohitha");
 
-System.out.println("welcomt o srini123");
+System.out.println("welcomt o srini456");
 	}
 
 }
