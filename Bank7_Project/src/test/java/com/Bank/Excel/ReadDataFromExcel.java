@@ -12,7 +12,9 @@ public class ReadDataFromExcel {
 
 	public static void main(String[] args) throws IOException {
 	
-	String ExcelPath="C:\\abc30\\TestData.xlsx";
+	//String ExcelPath="C:\\abc30\\TestData.xlsx";
+	
+	String ExcelPath=System.getProperty("user.dir")+"\\TestData.xlsx";
 	
 	File src= new File(ExcelPath);
 	
