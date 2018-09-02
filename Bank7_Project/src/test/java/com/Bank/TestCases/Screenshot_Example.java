@@ -30,6 +30,7 @@ TakesScreenshot ts=(TakesScreenshot)driver;
  
  FileUtils.copyFile(source, new File("./ScreenShots_Folder/facebook.png")) ;
  System.out.println("screenshot succesfull");
+ System.out.println("hello");
  
  
  
