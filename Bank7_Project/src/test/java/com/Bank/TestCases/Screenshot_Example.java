@@ -2,6 +2,8 @@ package com.Bank.TestCases;
 
 import java.io.File;
 import java.io.IOException;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 import org.apache.commons.io.FileUtils;
 
@@ -22,6 +24,7 @@ public class Screenshot_Example extends BaseTest {
 		screen.launchBrowser("Chrome");
 		screen.openapp("https://www.facebook.com/");
 	driver.findElement(By.xpath("//input[@type='email']")).sendKeys("lohitha");
+
 	
 TakesScreenshot ts=(TakesScreenshot)driver;
 		//as we cannt create object for takescreenshot
@@ -33,7 +36,7 @@ TakesScreenshot ts=(TakesScreenshot)driver;
  System.out.println("hello");
  
  
- 
+
 
 	}
 
