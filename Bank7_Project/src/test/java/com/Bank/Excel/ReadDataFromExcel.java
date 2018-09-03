@@ -60,6 +60,7 @@ String Lname=sheet1.getRow(1).getCell(2).getStringCellValue();
 		String Lname=sheet1.getRow(i).getCell(2).getStringCellValue();
 		
 		System.out.println(Lname);
+		
 	
 	
 	}
