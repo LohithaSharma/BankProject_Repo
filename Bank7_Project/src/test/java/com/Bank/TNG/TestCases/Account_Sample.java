@@ -7,7 +7,7 @@ import com.Bank.Base.BaseTest;
 public class Account_Sample  extends BaseTest{
 	
 	
-	@Test
+	@Test(groups= {"Regression"})
 	public void EditAccount() {
 		Account_Sample as= new Account_Sample();
 		

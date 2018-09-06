@@ -1,41 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17673" started-at="2018-09-03T18:45:42Z" finished-at="2018-09-03T18:46:00Z">
+  <suite name="BankProject" duration-ms="11570" started-at="2018-09-06T16:42:09Z" finished-at="2018-09-06T16:42:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17673" started-at="2018-09-03T18:45:42Z" finished-at="2018-09-03T18:46:00Z">
-      <class name="com.Bank.TNG.TestCases.Login_Sample">
-        <test-method status="PASS" signature="getData()[pri:0, instance:com.Bank.TNG.TestCases.Login_Sample@7cd62f43]" name="getData" is-config="true" duration-ms="28" started-at="2018-09-03T18:45:42Z" finished-at="2018-09-03T18:45:42Z">
+    <test name="Test" duration-ms="11570" started-at="2018-09-06T16:42:09Z" finished-at="2018-09-06T16:42:21Z">
+      <class name="com.Bank.TNG1.TestCases.Test3">
+        <test-method status="FAIL" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:com.Bank.TNG1.TestCases.Test3@523884b2]" name="Login" duration-ms="11486" started-at="2018-09-06T16:42:09Z" finished-at="2018-09-06T16:42:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lohitha]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Facebook - Log In or Sign Up1] but found [Facebook - Log In or Sign Up]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Facebook - Log In or Sign Up1] but found [Facebook - Log In or Sign Up]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.Bank.TNG1.TestCases.Test3.Login(Test3.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getData -->
-        <test-method status="PASS" signature="m1()[pri:0, instance:com.Bank.TNG.TestCases.Login_Sample@7cd62f43]" name="m1" is-config="true" duration-ms="1" started-at="2018-09-03T18:45:42Z" finished-at="2018-09-03T18:45:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- m1 -->
-        <test-method status="PASS" signature="lunchAPPlication()[pri:0, instance:com.Bank.TNG.TestCases.Login_Sample@7cd62f43]" name="lunchAPPlication" is-config="true" duration-ms="17167" started-at="2018-09-03T18:45:42Z" finished-at="2018-09-03T18:45:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lunchAPPlication -->
-        <test-method status="PASS" signature="FBLogout()[pri:1, instance:com.Bank.TNG.TestCases.Login_Sample@7cd62f43]" name="FBLogout" duration-ms="38" started-at="2018-09-03T18:45:59Z" finished-at="2018-09-03T18:45:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FBLogout -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Bank.TNG.TestCases.Login_Sample@7cd62f43]" name="closeBrowser" is-config="true" duration-ms="409" started-at="2018-09-03T18:45:59Z" finished-at="2018-09-03T18:46:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="m2()[pri:0, instance:com.Bank.TNG.TestCases.Login_Sample@7cd62f43]" name="m2" is-config="true" duration-ms="1" started-at="2018-09-03T18:46:00Z" finished-at="2018-09-03T18:46:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- m2 -->
-        <test-method status="PASS" signature="closeData()[pri:0, instance:com.Bank.TNG.TestCases.Login_Sample@7cd62f43]" name="closeData" is-config="true" duration-ms="1" started-at="2018-09-03T18:46:00Z" finished-at="2018-09-03T18:46:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeData -->
-      </class> <!-- com.Bank.TNG.TestCases.Login_Sample -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- Login -->
+      </class> <!-- com.Bank.TNG1.TestCases.Test3 -->
+    </test> <!-- Test -->
+  </suite> <!-- BankProject -->
 </testng-results>

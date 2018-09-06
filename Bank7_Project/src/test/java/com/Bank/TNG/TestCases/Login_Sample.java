@@ -38,16 +38,15 @@ public class Login_Sample extends BaseTest{
 		ls.openapp("https://facebook.com");
 	}
 	
-	@Test(priority=0)
+	@Test(priority=0,groups= {"Regression"})
 	public void Login() {
-		
-	
+			
 		driver.findElement(By.name("firstname")).sendKeys("Sri");
 		driver.findElement(By.name("lastname")).sendKeys("Muvva");
 
 	}
 	
-	@Test(priority=1,dependsOnMethods={"Login"})
+	@Test(priority=1,groups= {"Regression","Smoke"})
 	public void FBLogout() {
 		
 		String s=driver.getTitle();

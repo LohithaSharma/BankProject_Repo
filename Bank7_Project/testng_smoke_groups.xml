@@ -4,7 +4,7 @@
 
 <groups>
     <run>
-      <include name="Regression"/>
+      <include name="Smoke"/>
     </run>
 </groups>
 
@@ -12,9 +12,9 @@
  
  
     <classes>
-     <class name="com.Bank.TNG.TestCases.Login_Sample"/>
-      <class name="com.Bank.TNG.TestCases.Account_Sample"/>
-      
+
+      <class name="com.Bank.TNG1.TestCases.Test1"/>
+       <class name="com.Bank.TNG1.TestCases.Test2"/>
     </classes>
   </test> <!-- Test -->
   
