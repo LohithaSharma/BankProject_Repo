@@ -2,54 +2,38 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32370" started-at="2018-09-08T19:24:51Z" finished-at="2018-09-08T19:25:23Z">
+  <suite name="Suite" duration-ms="21060" started-at="2018-09-09T13:18:36Z" finished-at="2018-09-09T13:18:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32370" started-at="2018-09-08T19:24:51Z" finished-at="2018-09-08T19:25:23Z">
-      <class name="com.Bank.TNG1.TestCases.Test4">
-        <test-method status="PASS" signature="CreateFBAccount(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Bank.TNG1.TestCases.Test4@3532ec19]" name="CreateFBAccount" duration-ms="15754" started-at="2018-09-08T19:24:53Z" data-provider="getDataFromExcel" finished-at="2018-09-08T19:25:09Z">
+    <test name="Test_chrome1" duration-ms="20136" started-at="2018-09-09T13:18:36Z" finished-at="2018-09-09T13:18:56Z">
+      <class name="com.Bank.Grid.testSample2">
+        <test-method status="PASS" signature="Facebooklogin(java.lang.String)[pri:0, instance:com.Bank.Grid.testSample2@1e7c7811]" name="Facebooklogin" duration-ms="20018" started-at="2018-09-09T13:18:36Z" finished-at="2018-09-09T13:18:56Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://www.facebook.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Srini]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Muvva]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CreateFBAccount -->
-        <test-method status="PASS" signature="CreateFBAccount(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Bank.TNG1.TestCases.Test4@3532ec19]" name="CreateFBAccount" duration-ms="14390" started-at="2018-09-08T19:25:09Z" data-provider="getDataFromExcel" finished-at="2018-09-08T19:25:23Z">
+        </test-method> <!-- Facebooklogin -->
+      </class> <!-- com.Bank.Grid.testSample2 -->
+    </test> <!-- Test_chrome1 -->
+    <test name="Test_chrome2" duration-ms="21060" started-at="2018-09-09T13:18:36Z" finished-at="2018-09-09T13:18:57Z">
+      <class name="com.Bank.Grid.testSample2">
+        <test-method status="PASS" signature="Facebooklogin(java.lang.String)[pri:0, instance:com.Bank.Grid.testSample2@7a30d1e6]" name="Facebooklogin" duration-ms="20949" started-at="2018-09-09T13:18:36Z" finished-at="2018-09-09T13:18:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://www.facebook.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Lohitha]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Sharam]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CreateFBAccount -->
-      </class> <!-- com.Bank.TNG1.TestCases.Test4 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- Facebooklogin -->
+      </class> <!-- com.Bank.Grid.testSample2 -->
+    </test> <!-- Test_chrome2 -->
+  </suite> <!-- Suite -->
 </testng-results>

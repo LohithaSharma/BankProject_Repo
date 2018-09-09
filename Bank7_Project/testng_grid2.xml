@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2">
+
+<test name="Test_chrome1">
+    <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="com.Bank.Grid.testSample2"/>
+     
+    </classes>
+  </test> 
+  
+  
+   <test name="Test_chrome2">
+   <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="com.Bank.Grid.testSample2"/>
+    </classes>
+  </test> 
+  
+</suite> <!-- Suite -->
